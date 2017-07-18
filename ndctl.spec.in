@@ -136,6 +136,7 @@ make check
 %defattr(-,root,root)
 %doc README.md
 %license COPYING licenses/BSD-MIT licenses/CC0
+%config(noreplace) %{_sysconfdir}/modprobe.d/daxctl.conf
 %{_libdir}/libdaxctl.so.*
 
 %files -n DNAME
